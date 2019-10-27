@@ -3,9 +3,31 @@ html {
     background-color: black;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 400;
     color: white;
     text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
 }
